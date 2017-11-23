@@ -4,8 +4,6 @@
 public class SelectionSort {
     /**
      * 菜鸟教程上看到的
-     * @param array
-     * @param length
      */
     public static void select_sort(int array[],int length){
         for (int i = 0; i<length-1;i++){
@@ -33,8 +31,7 @@ public class SelectionSort {
     }
 
     /**
-     * 自己写的
-     * @param arr
+     * 自己写
      */
     private static void select_sort1(int[] arr){
         for (int i = 0;i<arr.length-1;i++){
