@@ -25,4 +25,12 @@ public class ShellSort {
             }
         }
     }
+    public static void main(String[] args) {
+        int[] arr = {2, 5, 6, 33, 11};
+        shell_sort(arr,arr.length);
+        for (int i : arr) {
+            System.out.println(i);
+        }
+
+    }
 }
