@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArquillianContainersManager">
+    <container containerId="container.arquillian.manual" name="Manual container configuration">
+      <maven-library groupId="org.arquillian.container" artifactId="arquillian-chameleon-junit-container-starter" version="1.0.0.CR2" />
+    </container>
+  </component>
+</project>
