@@ -1,8 +1,10 @@
+package Sort;
+
 /**
  * Created by zhangxuelong on 2017/11/24
  */
 public class InsertionSort {
-    public static void insert_sort(int array[],int length){
+    private static void insert_sort(int array[], int length){
         int temp;
         for (int i = 0;i<length-1;i++){
             for (int j = i+1;j>0;j--){

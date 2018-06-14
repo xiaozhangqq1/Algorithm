@@ -1,3 +1,5 @@
+package Sort;
+
 /**
  * Created by zhangxuelong on 2017/9/6
  * Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
